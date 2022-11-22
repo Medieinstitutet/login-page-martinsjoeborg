@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+
+body {
+    background-color: rgb(163, 124, 77);
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+section {
+    
+    position: relative;
+    
+    text-align: center;
+    
+}
+
+footer {
+    position: relative;
+    text-align: center;
+}
