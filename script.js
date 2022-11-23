@@ -1,6 +1,8 @@
 //Kopplar startsidans html taggar med javascript
 const page0 = document.getElementById('page0');
 const Btn1 = document.getElementById('Btn1');
+const header1 = document.getElementById('header1');
+const header2 = document.getElementById('header2');
 
 //Kopplar login sidan html taggar med javascript
 const page1 = document.getElementById('page1');
@@ -20,6 +22,8 @@ if (a === "janne") {
     page1.hidden = true;
     page2.hidden = false;
     err.hidden = true;
+    header1.hidden = true;
+    header2.hidden = false;
 }
 
 //Klick på knapp hänvisar användaren till login sidan
@@ -40,6 +44,9 @@ function validLogin() {
         page1.hidden = true;
         page2.hidden = false;
         err.hidden = true;
+        header1.hidden = true;
+        header2.hidden = false;
+        
         localStorage.setItem('username', username.value);
     } else {
         page1.hidden = false;
@@ -52,6 +59,8 @@ function validLogin() {
 function logout() {
     page1.hidden = false;
     page2.hidden = true;
+    header1.hidden = false;
+    header2.hidden = true;
     localStorage.setItem('username', '');
 }
 
