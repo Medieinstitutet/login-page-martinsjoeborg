@@ -52,7 +52,6 @@ function validLogin() {
         page1.hidden = false;
         page2.hidden = true;
         err.hidden = false;
-        alert("Username and/or password is invalid!")
     }
 }
 
