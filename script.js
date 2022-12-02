@@ -27,7 +27,7 @@ if (a === "janne" || b === "martin") {
     err.hidden = true;
     header1.hidden = true;
     header2.hidden = false;
-    hiName.innerHTML = "Welcome " + username.value + "!";
+    hiName.innerHTML = "Welcome " + a + "!";
 }
 
 //Clikc on button directs user to login page
